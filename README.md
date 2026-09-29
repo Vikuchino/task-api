@@ -1,6 +1,12 @@
 # task-api
-FastAPI task manager
-Учебный репозиторий: Git + FastAPI.
 
-**Автор**: Виктория Азанова
-**Начало работы**: 2026-09-23
+CRUD-сервис для управления задачами. FastAPI + Docker + автодеплой.
+
+## Локальный запуск
+
+    conda create -y -n task-api python=3.11
+    conda activate task-api
+    pip install -r requirements.txt
+    uvicorn app.main:app --reload
+
+Документация: http://localhost:8000/docs
