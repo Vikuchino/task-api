@@ -10,3 +10,5 @@ CRUD-сервис для управления задачами. FastAPI + Docker
     uvicorn app.main:app --reload
 
 Документация: http://localhost:8000/docs
+
+
